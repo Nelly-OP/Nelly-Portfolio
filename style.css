@@ -299,7 +299,7 @@ span{
     width: 50px;
 }
 .services{
-    background: #151515;
+    background-color: #151515;
     color: white;
 }
 .services h2{
@@ -346,7 +346,7 @@ span{
     margin: auto;
 }
 .contact{
-    background-color: #151515;
+    background-color:#151515;
 }
 .contact h2{
     margin-bottom: 3rem;
@@ -377,6 +377,19 @@ span{
 }
 .contact form .btn{
     margin-top: 2rem;
+}
+.maps{
+    text-align: center;
+    background-color: #151515;
+}
+.maps h1{
+    margin-bottom: 3rem;
+    font-size: 80px;
+    color: white;
+}
+#glow{
+    box-shadow: 0 0 30px rgb(232, 14, 235);
+    cursor: pointer; 
 }
 .footer{
     position: relative;
@@ -436,4 +449,34 @@ span{
     text-align: center;
     font-size: 16px;
     color: white;
+}
+.privacy{
+    text-align: left;
+    margin:auto;
+}
+.privacy_container{
+    color: rgb(232, 14, 235);
+    line-height: 50px;
+    display: inline-block;
+    text-align: left;
+    padding: 55px;
+    border-radius: 0%;
+    margin: 0 10px;
+    border: 0.2rem solid rgb(232, 14, 235);
+    box-shadow: 0 0 50px rgb(232, 14, 235);
+    cursor: pointer; 
+}
+.privacy h1{
+    text-align: center;
+    border-bottom: 2px solid rgb(232, 14, 235);
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+.privacy h2{
+    font-size: 20px;
+}
+.privacy h3{
+    font-size: 14px;
+    line-height: 25px;
 }
