@@ -9,8 +9,8 @@
     font-family: "Poppins", sans-serif;
 }
 :root {
-background: black;
-background-color: #151515;
+    background: black;
+    background-color: #151515;
 color: white;
 color: rgb(232, 14, 235);
 }
@@ -396,7 +396,7 @@ span{
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: #151515;
+    background-color: transparent;
 }
 .footer .social{
     text-align: center;
@@ -479,4 +479,91 @@ span{
 .privacy h3{
     font-size: 14px;
     line-height: 25px;
+}
+@media(max-width: 1285px){
+html{
+    font-size: 55%;
+}
+.services-container{
+    padding-bottom: 7rem;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 5rem; 
+}
+}
+@media(max-width: 991px){
+ header{
+    padding: 2rem 3%;
+ }   
+ section{
+    padding: 10rem 3% 2rem;
+ }
+ .services{
+    padding-bottom: 7rem;
+ }
+ .footer{
+    padding: 2rem 3%;
+ }
+}
+@media(max-width:895px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position:absolute;
+        top: 100%;
+        right: 0;
+        width: 20%;
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(15px);
+        border-bottom-left-radius: 1rem;
+        border-left: 2px solid  rgb(232, 14, 235);
+        border-bottom: 2px solid  rgb(232, 14, 235);
+        display: none;
+    }
+    .navbar.active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    }
+    .home{
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+    .home-content h1{
+        font-size: 8rem;
+        margin-top: 3rem;
+    }
+    .home-content p{
+        max-width: 600px;
+        margin: auto;
+    }
+    .home-img img{
+        width: 56vw;
+        margin-top: -2rem;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about-content{
+        margin: 0 2rem 4rem;
+    }
+    .about img{
+        width: 52vw;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    .services h2{
+        margin-bottom: 3rem;
+    }
+    .services-container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
